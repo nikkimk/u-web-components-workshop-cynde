@@ -122,10 +122,10 @@ class uCard extends LitElement {
           <slot name="image"></slot>
         </div>
         <div part="body">
-        <slot name="heading"></slot>
-        <slot name="subheading"></slot>
-        <slot name="content"></slot>
-        <slot name="link"></slot>
+          <slot name="heading"></slot>
+          <slot name="subheading"></slot>
+          <slot name="content"></slot>
+          <slot name="link"></slot>
         </div>
     `;
   }
